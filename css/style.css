@@ -22,4 +22,25 @@
 	border-radius: 0.625rem;
 	background-color: #454343;
 	color: #fff;
+	cursor: pointer;
+	display: block;
+}
+
+.header-sticky__dropdown-pistona {
+	position: fixed;
+	top: -30%;
+	padding: 0.2rem;
+	border-radius: 0.5rem;
+	background: #454343;
+	transition: transform 500ms ease;
+}
+
+.header-sticky__button-pistona:hover + header-sticky__dropdown-pistona {
+	transform: translate(0, 170px);
+}
+.thumbnail {
+	display: flex;
+	flex-direction: column;
+	height: 19.1875rem;
+	width: 22.6875rem;
 }

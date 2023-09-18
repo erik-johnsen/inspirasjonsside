@@ -3,6 +3,8 @@
 }
 
 .header-sticky {
+	position: sticky;
+	top: 0;
 	display: flex;
 	width: 90rem;
 	height: 5.9375rem;
@@ -10,12 +12,12 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	gap: 8.5rem;
-	font-size: 2rem;
+	gap: 8rem;
+	font-size: 1.5rem;
 }
 
 .header-sticky__button {
-	padding: 0.94rem 2.11rem 1.84rem 2.06rem;
+	padding: 0.8rem 2rem 0.8rem 2rem;
 	border: 1px solid black;
 	border-radius: 0.625rem;
 	background-color: #454343;

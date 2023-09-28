@@ -15,3 +15,9 @@
     font-weight: 400;
 	src: url(../assets/roboto/Roboto-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Roboto';
+    font-variant: 500;
+    src: url(../assets/roboto/RobotoMono-SemiBold.ttf);
+}
